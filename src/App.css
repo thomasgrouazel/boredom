@@ -1,0 +1,55 @@
+.App {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+.innerApp {
+    width: 900px;
+    max-width: 95vw;
+}
+
+button {
+    height: 20px;
+    /* width: 50px; */
+    background-color: rgb(255, 50, 105);
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+button:hover {
+    outline: 1px solid white;
+    cursor: pointer;
+}
+
+.result {
+    border: 1px rgb(255, 50, 105) solid;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.p > div {
+    flex: 1;
+}
+
+.fav {
+    border: 1px rgb(255, 50, 105) solid;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
